@@ -1,13 +1,15 @@
 <h1>TOOLSV4 PREMIUM</h1>
 <b>
+  
 apt update -y 
-
 
 apt upgrade -y
 
 pkg install python -y
 
 pkg install git -y
+
+termux-setup-storage 
 
 pkg install curl -y
 
@@ -18,4 +20,5 @@ git clone https://github.com/IKHSAN-PROJCT/TOOLSV4
 cd TOOLSV4
 
 bash TOOLSV4.sh
+
 </b>
